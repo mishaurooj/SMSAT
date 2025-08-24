@@ -9,14 +9,18 @@ This is the official repository for the **SMSAT (Spiritual Meditation, Music, Si
 📊 [Dataset on Kaggle](https://www.kaggle.com/datasets/crdkhan/qmsat-dataset)
 
 ---
+## SMSAT Dataset
 
-## 📂 Repository Structure
-- `data/` – Raw ATS signals, dataset augmentation, and validation.  
-- `models/` – Pretrained models (SMSAT Encoder, CAM).  
-- `notebooks/` – Jupyter notebooks for reproducing experiments.  
-- `results/` – Statistical tests, ablation studies, and performance results.  
-- `code/` – Training & evaluation scripts with utilities.  
-- `paper/` – Published paper (PDF).  
+#### Subject Distribution
+![Subject Distribution](./data/subject_distribution.png)
+
+#### Time Domain 
+![All in One](./data/all_classes_audio.jpeg)
+
+
+#### Dataset  Distribution
+![Distribution](./data/data-subplot.png)
+
 
 ---
 
