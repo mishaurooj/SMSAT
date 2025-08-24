@@ -3,5 +3,9 @@ This folder contains Raw Signals of all classes.
 #### Subject Distribution
 ![Subject Distribution](./subject_distribution.png)
 
-#### All-in-One View
+#### Time Domain 
 ![All in One](./all_classes_audio.jpeg)
+
+
+#### Dataset  Distribution
+![Distribution](./data-subplot.png)
