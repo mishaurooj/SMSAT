@@ -1,4 +1,67 @@
-{"name": "README", "type": "document", "content": "# SMSAT Dataset and Models\n\nThis is the official repository for the SMSAT (Spiritual Meditation, Music, Silence Acoustic Time Series) dataset, trained models, code, and results, accompanying the paper:\n\n> "SMSAT: An Acoustic Dataset and Multi-Feature Deep Contrastive Learning Framework for Affective and Physiological Modeling of Spiritual Meditation" \n> (IEEE Transactions on Affective Computing, 2025)\n\n📄 Paper PDF
- \n📊 Dataset on Kaggle
-\n\n---\n\n## 📂 Repository Structure\n- data/ – Raw ATS signals, dataset augmentation, and validation. \n- models/ – Pretrained models (SMSAT Encoder, CAM). \n- notebooks/ – Jupyter notebooks for reproducing experiments. \n- results/ – Statistical tests, ablation studies, and performance results. \n- code/ – Training & evaluation scripts with utilities. \n- paper/ – Published paper (PDF). \n\n---\n\n## 🚀 Getting Started\n### Installation\nbash\ngit clone https://github.com/yourusername/SMSAT-dataset.git\ncd SMSAT-dataset/code\npip install -r requirements.txt\n\n\n### Dataset\nThe dataset is hosted on Kaggle: \n👉 SMSAT Dataset on Kaggle
-\n\nIf you only want metadata and examples, check the data/ folder in this repo.\n\n---\n\n## ⚡ Usage\n\nTrain the SMSAT Encoder:\nbash\npython train_encoder.py --data ../data/ATS-data\n\n\nTrain the Calmness Analysis Model (CAM):\nbash\npython train_cam.py --data ../data/ATS-data\n\n\nEvaluate trained models:\nbash\npython evaluate.py --model ./models/SMSAT-Encoder --data ../data/ATS-data\n\n\n---\n\n## 📊 Results\n- SMSAT Encoder classification accuracy: 99.99% \n- CAM calmness analysis accuracy: 99.99% \n- Statistical analyses confirm: Spiritual Meditation ≈ Silence < Music in calmness effect.\n\nDetailed results, ANOVA, pairwise T-tests, ablation studies, and plots are available in the results/ folder.\n\n---\n\n## 📄 Citation\nIf you use this dataset or models, please cite:\n\nbibtex\n@article{SMSAT2025,\n title={SMSAT: An Acoustic Dataset and Multi-Feature Deep Contrastive Learning Framework for Affective and Physiological Modeling of Spiritual Meditation},\n author={Ahmad Suleman and Yazeed Alkhrijah and Misha Urooj Khan and Hareem Khan and Muhammad Abdullah Husnain Ali Faiz and Mohamad A. Alawad and Zeeshan Kaleem and Guan Gui},\n journal={IEEE Transactions on Affective Computing},\n year={2025}\n}\n\n\n---\n\n## 📧 Contact\nFor questions, reach out: [your email here]"}
+# SMSAT Dataset and Models
+
+This is the official repository for the **SMSAT (Spiritual Meditation, Music, Silence Acoustic Time Series)** dataset, trained models, code, and results, accompanying the paper:
+
+> **"SMSAT: An Acoustic Dataset and Multi-Feature Deep Contrastive Learning Framework for Affective and Physiological Modeling of Spiritual Meditation"**  
+> (IEEE Transactions on Affective Computing, 2025)  
+
+📄 [Paper PDF](./paper/SMSAT_Paper.pdf)  
+📊 [Dataset on Kaggle](https://www.kaggle.com/datasets/crdkhan/qmsat-dataset)
+
+---
+
+## 📂 Repository Structure
+- `data/` – Raw ATS signals, dataset augmentation, and validation.  
+- `models/` – Pretrained models (SMSAT Encoder, CAM).  
+- `notebooks/` – Jupyter notebooks for reproducing experiments.  
+- `results/` – Statistical tests, ablation studies, and performance results.  
+- `code/` – Training & evaluation scripts with utilities.  
+- `paper/` – Published paper (PDF).  
+
+---
+
+## 🚀 Getting Started
+### Installation
+```bash
+git clone https://github.com/yourusername/SMSAT-dataset.git
+cd SMSAT-dataset/code
+pip install -r requirements.txt
+
+---
+
+## Dataset
+The dataset is hosted on Kaggle: 👉 SMSAT Dataset on Kaggle https://www.kaggle.com/datasets/crdkhan/qmsat-dataset/data
+---
+
+## ⚡ Usage
+
+Train the SMSAT Encoder:
+python train_encoder.py --data ../data/ATS-data
+Train the Calmness Analysis Model (CAM):
+python train_cam.py --data ../data/ATS-data
+
+---
+
+## 📊 Results
+SMSAT Encoder classification accuracy: 99.99%
+CAM calmness analysis accuracy: 99.99%
+Statistical analyses confirm that Spiritual Meditation ≈ Silence < Music in calmness effect.
+Full ablation study, ANOVA, and visualizations are available in results/.
+
+---
+
+##
+📄 Citation
+If you use this dataset or models, please cite:
+@article{SMSAT2025,
+  title={SMSAT: An Acoustic Dataset and Multi-Feature Deep Contrastive Learning Framework for Affective and Physiological Modeling of Spiritual Meditation},
+  author={Ahmad Suleman and Yazeed Alkhrijah and Misha Urooj Khan and Hareem Khan and Muhammad Abdullah Husnain Ali Faiz and Mohamad A. Alawad and Zeeshan Kaleem and Guan Gui},
+  journal={IEEE Transactions on Affective Computing},
+  year={2025}
+}
+
+---
+
+##
+📧 Contact
+For questions, reach out: crdteamwork786@gmail.com
