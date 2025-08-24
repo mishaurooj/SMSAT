@@ -53,7 +53,7 @@
 
 ### Figures
 
-![1](./SMSAT_Encoder_page-0001.jpg.png)
+![1](./SMSAT_Encoder_page-0001.jpg)
 
 ![2](./statistics_plots.png)
 
