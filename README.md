@@ -5,7 +5,7 @@ This is the official repository for the **SMSAT (Spiritual Meditation, Music, Si
 > **"SMSAT: An Acoustic Dataset and Multi-Feature Deep Contrastive Learning Framework for Affective and Physiological Modeling of Spiritual Meditation"**  
 > (IEEE Transactions on Affective Computing, 2025)  
 
-📄 [Paper PDF](./paper/SMSAT_Paper.pdf)  
+📄 [Paper PDF]([./paper/SMSAT_Paper.pdf](https://arxiv.org/abs/2505.00839))  
 📊 [Dataset on Kaggle](https://www.kaggle.com/datasets/crdkhan/qmsat-dataset)
 
 ---
