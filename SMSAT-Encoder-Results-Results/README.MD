@@ -53,21 +53,21 @@
 
 ### Figures
 
-(./SMSAT_Encoder_page-0001.jpg.png)
+![1](./SMSAT_Encoder_page-0001.jpg.png)
 
-(./statistics_plots.png)
+![2](./statistics_plots.png)
 
-(./tsne_scatter.png)
+![3](./tsne_scatter.png)
 
-(./centroid_scatter.png)
+![4](./centroid_scatter.png)
 
-(./distance_statistics.png)
+![5](./distance_statistics.png)
 
-(./smasat-trainloss.png)
+![6](./smasat-trainloss.png)
 
-(./activations_Music.png)
+![7](./activations_Music.png)
 
-(./activations_Normal(Silence).png)
+![8](./activations_Normal(Silence).png)
 
-(./activations_SpiritualMeditation.png)
+![9](./activations_SpiritualMeditation.png)
 
