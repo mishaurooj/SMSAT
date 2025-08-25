@@ -11,15 +11,18 @@ This is the official repository for the **SMSAT (Spiritual Meditation, Music, Si
 ---
 ## SMSAT Dataset
 
-### Detailed flow graph of the proposed methodology.
+### Detailed flow graph of the proposed methodology
 ![Subject Distribution](./data/block.jpg)
 
-#### Subject Distribution
-![Subject Distribution](./data/subject_distribution.png)
+### ata Collection and Acquisition Device
+![Subject Distribution](./data/daq.png)
+
 
 #### Time Domain 
 ![All in One](./data/all_classes_audio.jpeg)
 
+#### Subject Distribution
+![Subject Distribution](./data/subject_distribution.png)
 
 #### Dataset  Distribution
 ![Distribution](./data/data-subplot.png)
