@@ -21,9 +21,13 @@ This is the official repository for the **SMSAT (Spiritual Meditation, Music, Si
 #### Dataset  Distribution
 ![Distribution](./data/data-subplot.png)
 
+---
+## Dataset Validation
+
+#### Subject Distribution
+![Subject Distribution](./Dataset-Validation/signal_comparison_all_classes.png)
 
 ---
-
 ## 🚀 Getting Started
 ### Installation
 ```bash
