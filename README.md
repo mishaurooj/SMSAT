@@ -11,6 +11,9 @@ This is the official repository for the **SMSAT (Spiritual Meditation, Music, Si
 ---
 ## SMSAT Dataset
 
+### Detailed flow graph of the proposed methodology.
+![Subject Distribution](./data/block.jpg)
+
 #### Subject Distribution
 ![Subject Distribution](./data/subject_distribution.png)
 
@@ -24,7 +27,6 @@ This is the official repository for the **SMSAT (Spiritual Meditation, Music, Si
 ---
 ## Dataset Validation
 
-#### Subject Distribution
 ![Subject Distribution](./Dataset-Validation/signal_comparison_all_classes.png)
 
 ---
