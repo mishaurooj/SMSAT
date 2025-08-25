@@ -40,6 +40,20 @@ This is the official repository for the **SMSAT (Spiritual Meditation, Music, Si
 
 ![Subject Distribution](./Dataset-Augmentation/all_in_one_figure.png)
 ---
+## CALMNESS ANALYSIS MODEL (CAM)
+
+### Architecture
+![Subject Distribution](./CAM-model-Results/CAM_architecture.jpg)
+
+### Spiritual Meditation
+![Subject Distribution](./CAM-model-Results/activations_SpiritualMeditation.png)
+
+### Normal Silence
+![Subject Distribution](./CAM-model-Results/activations_NormalSilence.png)
+
+### Music
+![Subject Distribution](./CAM-model-Results/activations_Music.png)
+---
 ## 🚀 Getting Started
 ### Installation
 ```bash
