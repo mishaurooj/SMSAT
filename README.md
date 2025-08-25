@@ -14,7 +14,7 @@ This is the official repository for the **SMSAT (Spiritual Meditation, Music, Si
 ### Detailed flow graph of the proposed methodology
 ![Subject Distribution](./data/block.jpg)
 
-### ata Collection and Acquisition Device
+### Data Collection and Acquisition Device
 ![Subject Distribution](./data/daq.png)
 
 
@@ -32,6 +32,13 @@ This is the official repository for the **SMSAT (Spiritual Meditation, Music, Si
 
 ![Subject Distribution](./Dataset-Validation/signal_comparison_all_classes.png)
 
+---
+## PROPOSED SMSAT ATS ENCODER
+![Subject Distribution](./SMSAT-Encoder-Results-Results/SMSAT_Encoder_page-0001.jpg)
+
+### Dataset Augmentation
+
+![Subject Distribution](./Dataset-Augmentation/all_in_one_figure.png)
 ---
 ## 🚀 Getting Started
 ### Installation
