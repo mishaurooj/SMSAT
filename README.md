@@ -55,24 +55,9 @@ This is the official repository for the **SMSAT (Spiritual Meditation, Music, Si
 ![Subject Distribution](./CAM-model-Results/activations_Music.png)
 ---
 ## 🚀 Getting Started
-### Installation
-```bash
-git clone https://github.com/yourusername/SMSAT-dataset.git
-cd SMSAT-dataset/code
-pip install -r requirements.txt
-
----
 
 ## Dataset
 The dataset is hosted on Kaggle: 👉 SMSAT Dataset on Kaggle https://www.kaggle.com/datasets/crdkhan/qmsat-dataset/data
----
-
-## ⚡ Usage
-
-Train the SMSAT Encoder:
-python train_encoder.py --data ../data/ATS-data
-Train the Calmness Analysis Model (CAM):
-python train_cam.py --data ../data/ATS-data
 
 ---
 
