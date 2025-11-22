@@ -78,11 +78,11 @@ The dataset is hosted on Kaggle: 👉 SMSAT Dataset on Kaggle https://www.kaggle
 
 ### SHAP Beeswarm Plot  
 `SMSAT/WaveGAN-Results/shap_summary_beeswarm.png`  
-![SHAP Beeswarm](SMSAT/WaveGAN-Results/shap_summary_beeswarm.png)
+![SHAP Beeswarm](./WaveGAN-Results/shap_summary_beeswarm.png)
 
 ### SHAP Bar Plot  
 `SMSAT/WaveGAN-Results/shap_summary_bar.png`  
-![SHAP Bar](SMSAT/WaveGAN-Results/shap_summary_bar.png)
+![SHAP Bar](./WaveGAN-Results/shap_summary_bar.png)
 
 ---
 
@@ -90,7 +90,7 @@ The dataset is hosted on Kaggle: 👉 SMSAT Dataset on Kaggle https://www.kaggle
 
 | Generator | Discriminator |
 |----------|---------------|
-| ![Generator](SMSAT/WaveGAN-Results/Wavegan_generator.png) | ![Discriminator](SMSAT/WaveGAN-Results/Wavegan_discriminator.png) |
+| ![Generator](./WaveGAN-Results/Wavegan_generator.png) | ![Discriminator](SMSAT/WaveGAN-Results/Wavegan_discriminator.png) |
 
 ---
 
@@ -98,7 +98,7 @@ The dataset is hosted on Kaggle: 👉 SMSAT Dataset on Kaggle https://www.kaggle
 
 | NS | Music | SM |
 |----|-------|-----|
-| ![NS](SMSAT/WaveGAN-Results/NS_loss_curve.png) | ![M](SMSAT/WaveGAN-Results/M_loss_curve.png) | ![SM](SMSAT/WaveGAN-Results/SM_loss_curve.png) |
+| ![NS](./WaveGAN-Results/NS_loss_curve.png) | ![M](SMSAT/WaveGAN-Results/M_loss_curve.png) | ![SM](SMSAT/WaveGAN-Results/SM_loss_curve.png) |
 
 ---
 
@@ -106,27 +106,27 @@ The dataset is hosted on Kaggle: 👉 SMSAT Dataset on Kaggle https://www.kaggle
 
 | Music | Normal (Silence) | Spiritual Meditation |
 |-------|------------------|----------------------|
-| ![Music](SMSAT/WaveGAN-Results/quality_eval_music.png) | ![NS](SMSAT/WaveGAN-Results/quality_eval_Normal(Silence).png) | ![SM](SMSAT/WaveGAN-Results/quality_eval_SpiritualMeditation.png) |
+| ![Music](./WaveGAN-Results/quality_eval_music.png) | ![NS](./WaveGAN-Results/quality_eval_Normal(Silence).png) | ![SM](./WaveGAN-Results/quality_eval_SpiritualMeditation.png) |
 ---
 
 ## 🔎 Signal Comparison
 
-`SMSAT/WaveGAN-Results/signal_comparison_all_classes.png`  
-![Signal Comparison](SMSAT/WaveGAN-Results/signal_comparison_all_classes.png)
+`./WaveGAN-Results/signal_comparison_all_classes.png`  
+![Signal Comparison](./WaveGAN-Results/signal_comparison_all_classes.png)
 
 ---
 
 ## 🧪 Example Generated Output
 
-`SMSAT/WaveGAN-Results/gen1.png`  
-![gen1](SMSAT/WaveGAN-Results/gen1.png)
+`./WaveGAN-Results/gen1.png`  
+![gen1](./WaveGAN-Results/gen1.png)
 
 ---
 
 ## 📦 Generated Dataset Preview
 
 `SMSAT/WaveGAN-Results/Generated-dataset.jpeg`  
-![Dataset](SMSAT/WaveGAN-Results/Generated-dataset.jpeg)
+![Dataset](./WaveGAN-Results/Generated-dataset.jpeg)
 
 ---
 
