@@ -59,43 +59,80 @@ The dataset is hosted on Kaggle: 👉 SMSAT Dataset on Kaggle https://www.kaggle
 
 ---
 
-# 🌟 SMSAT WaveGAN Results
+# 🌟 WaveGAN Results
 
-This repository presents the **WaveGAN-based augmentation results** for the **SMSAT dataset**, including training curves, generator/discriminator architectures, and quality evaluations for all three auditory classes.
+## 📊 Subject-wise Cross-Validation Performance
 
-## WaveGAN Architecture
+| Model / Classifier     | Accuracy (mean ± std) | F1-score (mean ± std) |
+|------------------------|------------------------|-------------------------|
+| **CAM (ours)**         | **98.4 ± 3.1**         | **97.9 ± 3.4**          |
+| **SMSAT-Enc (ours)**   | 96.5 ± 3.8             | 96.2 ± 4.0              |
+| wav2vec2.0 + Linear    | 81.7 ± 4.5             | 80.9 ± 4.2              |
+| OpenL3 + SVM           | 78.5 ± 5.1             | 77.8 ± 5.3              |
+| MFCC + SVM             | 69.3 ± 6.4             | 68.1 ± 6.9              |
+| 1D CNN baseline        | 73.4 ± 5.7             | 72.6 ± 6.0              |
+
+---
+
+## 🧠 SHAP Explainability
+
+### SHAP Beeswarm Plot  
+`SMSAT/WaveGAN-Results/shap_summary_beeswarm.png`  
+![SHAP Beeswarm](SMSAT/WaveGAN-Results/shap_summary_beeswarm.png)
+
+### SHAP Bar Plot  
+`SMSAT/WaveGAN-Results/shap_summary_bar.png`  
+![SHAP Bar](SMSAT/WaveGAN-Results/shap_summary_bar.png)
+
+---
+
+## 🏗️ WaveGAN Architecture
 
 | Generator | Discriminator |
 |----------|---------------|
-| ![Generator](Wavegan_generator.png) | ![Discriminator](Wavegan_discriminator.png) |
+| ![Generator](SMSAT/WaveGAN-Results/Wavegan_generator.png) | ![Discriminator](SMSAT/WaveGAN-Results/Wavegan_discriminator.png) |
 
-## Training Loss Curves
+---
 
-| NS Loss | Music Loss | SM Loss |
-|--------|------------|---------|
-| ![NS](NS_loss_curve.png) | ![M](M_loss_curve.png) | ![SM](SM_loss_curve.png) |
+## 📉 Training Loss Curves
 
-## Classwise Generation Samples
+| NS | Music | SM |
+|----|-------|-----|
+| ![NS](SMSAT/WaveGAN-Results/NS_loss_curve.png) | ![M](SMSAT/WaveGAN-Results/M_loss_curve.png) | ![SM](SMSAT/WaveGAN-Results/SM_loss_curve.png) |
+
+---
+
+## 🎧 Classwise Generation Quality
 
 | Music | Normal (Silence) | Spiritual Meditation |
 |-------|------------------|----------------------|
-| ![Music](quality_eval_music.png) | ![NS](quality_eval_Normal(Silence).png) | ![SM](quality_eval_SpiritualMeditation.png) |
+| ![Music](SMSAT/WaveGAN-Results/quality_eval_music.png) | ![NS](SMSAT/WaveGAN-Results/quality_eval_Normal(Silence).png) | ![SM](SMSAT/WaveGAN-Results/quality_eval_SpiritualMeditation.png) |
+---
 
-## Signal Comparison Across All Classes
+## 🔎 Signal Comparison
 
-![Signal Comparison](signal_comparison_all_classes.png)
+`SMSAT/WaveGAN-Results/signal_comparison_all_classes.png`  
+![Signal Comparison](SMSAT/WaveGAN-Results/signal_comparison_all_classes.png)
 
-## Example Generated Output
+---
 
-![Generated Sample](gen1.png)
+## 🧪 Example Generated Output
 
-## Generated Dataset Preview
+`SMSAT/WaveGAN-Results/gen1.png`  
+![gen1](SMSAT/WaveGAN-Results/gen1.png)
 
-![Dataset](Generated-dataset.jpeg)
+---
 
-## Summary
+## 📦 Generated Dataset Preview
 
-WaveGAN successfully produced class-consistent synthetic audio for **Music**, **Normal Silence**, and **Spiritual Meditation**, supporting balanced training and improved model stability.
+`SMSAT/WaveGAN-Results/Generated-dataset.jpeg`  
+![Dataset](SMSAT/WaveGAN-Results/Generated-dataset.jpeg)
+
+---
+
+## ✨ Summary
+
+WaveGAN successfully produced class-consistent synthetic audio for **Music**, **Natural Silence**, and **Spiritual Meditation**, improving balance and supporting stable subject-wise evaluation.
 
 
 ---
