@@ -98,7 +98,7 @@ The dataset is hosted on Kaggle: 👉 SMSAT Dataset on Kaggle https://www.kaggle
 
 | NS | Music | SM |
 |----|-------|-----|
-| ![NS](./WaveGAN-Results/NS_loss_curve.png) | ![M](SMSAT/WaveGAN-Results/M_loss_curve.png) | ![SM](SMSAT/WaveGAN-Results/SM_loss_curve.png) |
+| ![NS](./WaveGAN-Results/NS_loss_curve.png) | ![M](./WaveGAN-Results/M_loss_curve.png) | ![SM](./WaveGAN-Results/SM_loss_curve.png) |
 
 ---
 
