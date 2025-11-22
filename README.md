@@ -90,7 +90,7 @@ The dataset is hosted on Kaggle: 👉 SMSAT Dataset on Kaggle https://www.kaggle
 
 | Generator | Discriminator |
 |----------|---------------|
-| ![Generator](./WaveGAN-Results/Wavegan_generator.png) | ![Discriminator](SMSAT/WaveGAN-Results/Wavegan_discriminator.png) |
+| ![Generator](./WaveGAN-Results/Wavegan_generator.png) | ![Discriminator](./WaveGAN-Results/Wavegan_discriminator.png) |
 
 ---
 
