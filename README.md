@@ -116,13 +116,6 @@ The dataset is hosted on Kaggle: 👉 SMSAT Dataset on Kaggle https://www.kaggle
 
 ---
 
-## 🧪 Example Generated Output
-
-`./WaveGAN-Results/gen1.png`  
-![gen1](./WaveGAN-Results/gen1.png)
-
----
-
 ## 📦 Generated Dataset Preview
 
 `SMSAT/WaveGAN-Results/Generated-dataset.jpeg`  
